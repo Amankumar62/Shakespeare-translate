@@ -15,6 +15,7 @@ body{
     background-color: var(--primary-color);
     padding:0.5rem;
     text-align: center;
+    border-bottom-left-radius: 5rem;
 }
 
 #txt-output{
@@ -37,6 +38,7 @@ body{
 }
 
 #txt-btn-translate{
+    /* text-align: center; */
     background-color: var(--primary-color);
     border-radius: 2rem;
     border: white;
@@ -64,6 +66,7 @@ body{
     padding: 1rem;
     background-color: var(--primary-color);
     text-align: center;
+    border-top-right-radius: 5rem;
 }
 .footer div{
     font-size: x-large;
