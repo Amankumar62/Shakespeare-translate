@@ -9,9 +9,11 @@ body{
     margin: 0px;
     font-family: 'Sail', cursive;
     /* background-image: linear-gradient(#cac5ad,#938343,#9e7c15); */
+    /* background: linear-gradient(to right, #ff5f6d, #ffc371); */
 }
 
 .nav-header{
+    width: 100%;
     background-color: var(--primary-color);
     padding:0.5rem;
     text-align: center;
@@ -22,7 +24,7 @@ body{
     display: block;
     padding:1rem;
     margin: 1rem;
-    height:10vh;
+    height:100%;
     width: 100%;
     border: 1px solid black;
 }
@@ -54,20 +56,22 @@ body{
 }
 
 .main{
-    width:500px;
+    width:60%;
     padding:1rem;
     margin: auto;
 }
 
 .footer{
+    width: 100%;
+    max-height:15%;
     left: 0;
     bottom: 0;
-    position: fixed;
-    padding: 1rem;
+    position:absolute ;
+    padding: 0.5rem;
     background-color: var(--primary-color);
     text-align: center;
     border-top-right-radius: 5rem;
 }
 .footer div{
-    font-size: x-large;
+    /* font-size: x-large; */
 }
